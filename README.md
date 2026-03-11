@@ -8,32 +8,34 @@ O objetivo do projeto é **didático**: entender passo a passo como funcionam as
 
 ---
 
-# Estrutura do Projeto
+## Estrutura do Projeto
 
+```text
 IA/
 │
 ├── transformer/
 │
-│ ├── encoder.py
+│   ├── encoder.py
 │
-│ ├── self_attention/
-│ │ ├── softmax.py
-│ │ ├── scaled_dot_product_attention.py
-│ │ ├── self_attention.py
-│ │ └── test_self_attention.py
+│   ├── self_attention/
+│   │   ├── softmax.py
+│   │   ├── scaled_dot_product_attention.py
+│   │   ├── self_attention.py
+│   │   └── test_self_attention.py
 │
-│ ├── layer_norm/
-│ │ ├── layer_norm.py
-│ │ └── test_layer_norm.py
+│   ├── layer_norm/
+│   │   ├── layer_norm.py
+│   │   └── test_layer_norm.py
 │
-│ ├── ffn/
-│ │ ├── feed_forward.py
-│ │ └── test_feed_forward.py
+│   ├── ffn/
+│   │   ├── feed_forward.py
+│   │   └── test_feed_forward.py
 │
 ├── test_encoder.py
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 Cada diretório contém **uma parte do Transformer** e **um teste isolado** para validar seu funcionamento.
@@ -132,7 +134,9 @@ Input shape: (10, 64)
 Output shape: (10, 64)
 Attention weights shape: (10, 10)
 
-**Fluxo do Encoder Layer**
+## Fluxo do Encoder Layer
+
+```text
 Input
  │
  ▼
@@ -155,6 +159,7 @@ LayerNorm
  │
  ▼
 Output
+```
 
 Objetivo do Projeto
 
