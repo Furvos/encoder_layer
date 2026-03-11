@@ -11,9 +11,8 @@ O objetivo do projeto é **didático**: entender passo a passo como funcionam as
 ## Estrutura do Projeto
 
 ```text
-IA/
-│
-├── transformer/
+
+├── root/
 │
 │   ├── encoder.py
 │
