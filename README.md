@@ -354,7 +354,7 @@ Output
 
 ---
 
-# Fluxo do Decoder Layer (Simplificado)
+# Fluxo do Decoder Layer
 
 ```
 Input
@@ -398,6 +398,11 @@ Este projeto demonstra como construir **os blocos fundamentais de um Transformer
 * geração auto-regressiva de tokens
 
 ---
+
+# Observação
+
+Parte desta documentação foi gerada com IA generativa (GPT-5).
+O aprendizado técnico - entendimento de arquitetura, conexão dos módulos e uso de numpy - foi feito utilizando os modelos GPT-5 e Claude Sonnet 4.6.
 
 # Referência
 
